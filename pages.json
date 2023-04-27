@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabBar/my/my",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/homePage/homePage",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/community/community",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/gameLibrary/gameLibrary",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"fontSize": "10px",
+		"iconfontSrc": "static/icon/iconfont.ttf",
+		"list": [
+			{
+				"pagePath": "pages/tabBar/homePage/homePage",
+				"text": "首页",
+				"iconfont": {
+					"text": "\ue965",
+					"selectedText": "\ue964",
+					"fontSize": "22px",
+					"color": "#e6e6e6"
+				}
+			},
+			{
+				"pagePath": "pages/tabBar/community/community",
+				"text": "社区",
+				"iconfont": {
+					"text": "\ue620",
+					"selectedText": "\ue61e",
+					"fontSize": "22px",
+					"color": "#e6e6e6"
+				}
+			},
+			{
+				"pagePath": "pages/tabBar/gameLibrary/gameLibrary",
+				"text": "游戏库",
+				"iconfont": {
+					"text": "\ue673",
+					"selectedText": "\ue678",
+					"fontSize": "22px",
+					"color": "#e6e6e6"
+				}
+			},
+			{
+				"pagePath": "pages/tabBar/my/my",
+				"text": "我",
+				"iconfont": {
+					"text": "\ue628",
+					"selectedText": "\ue614",
+					"fontSize": "22px",
+					"color": "#e6e6e6"
+				}
+			}
+		]
+	}
+}
