@@ -2,7 +2,7 @@
 	<view class="content">
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
-			<text class="title">{{title}} any change</text>
+			<text class="title">{{title}}new change</text>
 		</view>
 	</view>
 </template>
